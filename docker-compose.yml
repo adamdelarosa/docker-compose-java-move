@@ -2,7 +2,7 @@ version: '2'
 services:
  java:
   container_name: java
-  image: java
+  build: .
   ports:
   - "80:80"
-  command: tail -f /dev/null
+#  command: tail -f /dev/null
